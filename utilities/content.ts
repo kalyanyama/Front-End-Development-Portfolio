@@ -1,6 +1,7 @@
 import {
   EnvelopeClosedIcon,
   GitHubLogoIcon,
+  InstagramLogoIcon,
   LinkedInLogoIcon,
   MobileIcon,
 } from "@radix-ui/react-icons";
@@ -30,13 +31,13 @@ export const SITE_INFORMATION = {
       link: "/#projects",
     },
     {
-      label: "History",
-      link: "/#history",
+      label: "Resources",
+      link: "/resources",
     },
-    // {
-    //   label: "Snippets",
-    //   link: "/snippets",
-    // },
+    {
+      label: "Photos",
+      link: "/photos",
+    },
   ],
   socialMediaLinks: [
     {
@@ -51,23 +52,18 @@ export const SITE_INFORMATION = {
     },
     {
       label: "Gmail",
-      link: "mailto:kalyannyama@gmail.com",
+      link: "mailto:yamakalyan6@gmail.com",
       icon: EnvelopeClosedIcon,
     },
-    // {
-    //   label: "Instagram",
-    //   link: "https://www.instagram.com/kalyan.yama/",
-    //   icon: InstagramLogoIcon,
-    // },
+    {
+      label: "Instagram",
+      link: "https://www.instagram.com/kalyan.yama/",
+      icon: InstagramLogoIcon,
+    },
     {
       label: "Phone",
       link: "tel:+919550049382",
       icon: MobileIcon,
     },
-    // {
-    //   label: "Vercel",
-    //   link: "https://vercel.com/kalyanyama",
-    //   icon: VercelLogoIcon,
-    // },
   ],
 };

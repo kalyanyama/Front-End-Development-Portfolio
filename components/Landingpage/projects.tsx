@@ -49,7 +49,7 @@ const list = [
 const Projects = () => {
   return (
     <div id="projects">
-      <p className="text-sm text-gray-500 font-label">Freelance projects</p>
+      <p className="text-sm text-gray-500 font-label">Projects</p>
       <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 mt-8">
         {list.map((item, index) => (
           <div key={index} className="">
@@ -59,7 +59,7 @@ const Projects = () => {
                   <Link
                     href={item.link}
                     target="_blank"
-                    className="text-sm font-light"
+                    className="text-sm"
                   >
                     {item.label}
                   </Link>
